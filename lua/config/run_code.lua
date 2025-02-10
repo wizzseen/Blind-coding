@@ -81,7 +81,7 @@ end
     end
 
     local output_content = read_file("output.txt")
-    local real_output_content = read_file("real_output.txt")
+    local real_output_content = read_file("../.skibidi/real_output.txt")
 
     if not output_content or not real_output_content then
         show_floating_window("Error: Missing output files")
